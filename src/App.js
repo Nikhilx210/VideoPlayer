@@ -24,7 +24,7 @@ function App() {
     <div className='main-box'>
       <h1>Video Player</h1>
       <VideoPlayer onFileChange={handleFileChange} />
-      <div className='wave'>
+      <div className='audioWaveform'>
       <WaveformDisplay audioUrl={audioUrl} />
       </div>
     </div>

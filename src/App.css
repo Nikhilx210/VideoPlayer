@@ -26,12 +26,12 @@ h1{
   text-align: center;
 }
 
-/* File input styling */
+
 input {
   margin-bottom: 10px;
 }
 
-/* Video metadata styling */
+
 p {
   font-size: 20px;
   margin: 5px 0;
@@ -39,7 +39,7 @@ p {
   font-weight: bold;
 }
 
-/* Canvas styling */
+
 canvas {
   border: 2px solid #e2dfdf;
   border-radius: 14px;
@@ -49,7 +49,7 @@ canvas {
   width: 80%;
 }
 
-/* Play/Pause button styling */
+
 .b1 {
   align-self: center;
   margin: 10px;
@@ -63,25 +63,13 @@ canvas {
   transition: background-color 0.3s ease;
 }
 
-.btn2 {
-  align-self: center;
-  margin: 10px;
-  padding: 8px;
-  font-size: 15px;
-  cursor: pointer;
-  background-color: #AEDEFC;
-  color: #367eab;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
 
 button:hover {
   background-color: #367eab;
   color: #AEDEFC;
 }
 
-.wave{
+.audioWaveform{
   margin: 20px;
   background-color:  rgb(66, 192, 242);
   padding-left: 250px;
