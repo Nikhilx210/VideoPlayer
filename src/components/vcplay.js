@@ -28,7 +28,8 @@ const VideoPlayer = ({ onFileChange }) => {
   }
   useEffect(() => {
     requestAnimationFrame(updateCanvas);
-  }, [updateCanvas]);
+    //eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     const video = videoRef.current;
