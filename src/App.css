@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+}
+div#crx-root-main{
+  padding: 0;
+}
+.main-box{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgb(66, 192, 242);
+}
+
+h1{
+  color: #343333;
+  font-size: 60px;
+}
+
+.box {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+/* File input styling */
+input {
+  margin-bottom: 10px;
+}
+
+/* Video metadata styling */
+p {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #4a4547;
+  font-weight: bold;
+}
+
+/* Canvas styling */
+canvas {
+  border: 2px solid #e2dfdf;
+  border-radius: 14px;
+  margin-top: 10px;
+  background-color: #f4efef;
+  height: 400px;
+  width: 80%;
+}
+
+/* Play/Pause button styling */
+.b1 {
+  align-self: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #AEDEFC;
+  color: #367eab;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn2 {
+  align-self: center;
+  margin: 10px;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #AEDEFC;
+  color: #367eab;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #367eab;
+  color: #AEDEFC;
+}
+
+.wave{
+  margin: 20px;
+  background-color:  rgb(66, 192, 242);
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top:0;
+  padding-bottom: 1px;
+}
+
+.d1{
+  margin-top: 3%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.mdata{
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.d2{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+}
