@@ -28,7 +28,7 @@ const VideoPlayer = ({ onFileChange }) => {
   }
   useEffect(() => {
     requestAnimationFrame(updateCanvas);
-  }, []);
+  }, [updateCanvas]);
 
   useEffect(() => {
     const video = videoRef.current;
